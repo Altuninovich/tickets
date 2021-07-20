@@ -1,0 +1,37 @@
+.ticket {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    .ticket_company-name {
+        height: 40px;
+        font-size: 1.5em;
+    }
+    .ticket_price-wrapper {
+        .ticket_price {
+            margin: 0 auto;
+            color: cornsilk;
+            width: 140px;
+            height: 50px;
+            background-color: coral;
+            border-radius: 6px 6px 6px 6px;
+        }
+
+    }
+    .ticket_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        .ticket_data-time {
+            font-size: 1.8em;
+        }
+        .ticket_data-city {
+            font-size: 1.3em;
+        }
+
+    }
+}
+
+
+
+
