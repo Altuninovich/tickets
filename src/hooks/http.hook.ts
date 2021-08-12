@@ -39,6 +39,7 @@ export const useHttp = (): UseHttpType => {
 
     async function getTickets<TicketsType>(): Promise<TicketsType> {
         const response: TicketsType = await axios.get('/tickets.json')
+        //const response: TicketsType = await axios.get('https://altuninovich.github.io/airtickets/tickets.json')
         return response
        }
 
